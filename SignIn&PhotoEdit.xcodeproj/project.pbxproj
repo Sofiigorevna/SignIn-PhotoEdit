@@ -10,7 +10,6 @@
 		7CB02D5D2BC571B90097C70D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02D5C2BC571B90097C70D /* AppDelegate.swift */; };
 		7CB02D5F2BC571B90097C70D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02D5E2BC571B90097C70D /* SceneDelegate.swift */; };
 		7CB02D612BC571B90097C70D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02D602BC571B90097C70D /* ViewController.swift */; };
-		7CB02D642BC571B90097C70D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB02D622BC571B90097C70D /* Main.storyboard */; };
 		7CB02D662BC571BA0097C70D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB02D652BC571BA0097C70D /* Assets.xcassets */; };
 		7CB02D692BC571BA0097C70D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB02D672BC571BA0097C70D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		7CB02D5C2BC571B90097C70D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CB02D5E2BC571B90097C70D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7CB02D602BC571B90097C70D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7CB02D632BC571B90097C70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CB02D652BC571BA0097C70D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CB02D682BC571BA0097C70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CB02D6A2BC571BA0097C70D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,15 +54,38 @@
 		7CB02D5B2BC571B90097C70D /* SignIn&PhotoEdit */ = {
 			isa = PBXGroup;
 			children = (
+				7CB02D712BC572ED0097C70D /* Sources */,
+				7CB02D722BC572FD0097C70D /* Resources */,
+			);
+			path = "SignIn&PhotoEdit";
+			sourceTree = "<group>";
+		};
+		7CB02D702BC572DC0097C70D /* App */ = {
+			isa = PBXGroup;
+			children = (
 				7CB02D5C2BC571B90097C70D /* AppDelegate.swift */,
 				7CB02D5E2BC571B90097C70D /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7CB02D712BC572ED0097C70D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7CB02D702BC572DC0097C70D /* App */,
 				7CB02D602BC571B90097C70D /* ViewController.swift */,
-				7CB02D622BC571B90097C70D /* Main.storyboard */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		7CB02D722BC572FD0097C70D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				7CB02D652BC571BA0097C70D /* Assets.xcassets */,
 				7CB02D672BC571BA0097C70D /* LaunchScreen.storyboard */,
 				7CB02D6A2BC571BA0097C70D /* Info.plist */,
 			);
-			path = "SignIn&PhotoEdit";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +148,6 @@
 			files = (
 				7CB02D692BC571BA0097C70D /* LaunchScreen.storyboard in Resources */,
 				7CB02D662BC571BA0097C70D /* Assets.xcassets in Resources */,
-				7CB02D642BC571B90097C70D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +167,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7CB02D622BC571B90097C70D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7CB02D632BC571B90097C70D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7CB02D672BC571BA0097C70D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +301,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HH9D8WXQ67;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SignIn&PhotoEdit/Info.plist";
+				INFOPLIST_FILE = "SignIn&PhotoEdit/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +313,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.sonyigorevna.SignIn-PhotoEdit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +331,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HH9D8WXQ67;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SignIn&PhotoEdit/Info.plist";
+				INFOPLIST_FILE = "SignIn&PhotoEdit/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +343,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.sonyigorevna.SignIn-PhotoEdit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
