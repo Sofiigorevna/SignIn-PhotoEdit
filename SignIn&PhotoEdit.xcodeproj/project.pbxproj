@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		7CB02D5D2BC571B90097C70D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02D5C2BC571B90097C70D /* AppDelegate.swift */; };
 		7CB02D5F2BC571B90097C70D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02D5E2BC571B90097C70D /* SceneDelegate.swift */; };
-		7CB02D612BC571B90097C70D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02D602BC571B90097C70D /* ViewController.swift */; };
-		7CB02D642BC571B90097C70D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB02D622BC571B90097C70D /* Main.storyboard */; };
+		7CB02D612BC571B90097C70D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02D602BC571B90097C70D /* SignInViewController.swift */; };
 		7CB02D662BC571BA0097C70D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB02D652BC571BA0097C70D /* Assets.xcassets */; };
 		7CB02D692BC571BA0097C70D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB02D672BC571BA0097C70D /* LaunchScreen.storyboard */; };
+		7CB02D742BC590D00097C70D /* CustomLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02D732BC590D00097C70D /* CustomLoginView.swift */; };
+		7CB02D772BC593370097C70D /* TextField + Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02D762BC593370097C70D /* TextField + Ex.swift */; };
+		7CB02D7B2BC59B800097C70D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02D7A2BC59B800097C70D /* ProfileViewController.swift */; };
+		7CB02D7D2BC5A06D0097C70D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CB02D7C2BC5A06D0097C70D /* GoogleService-Info.plist */; };
+		7CB02D802BC5A3DB0097C70D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7CB02D7F2BC5A3DB0097C70D /* FirebaseAuth */; };
+		7CB02D822BC5A3DB0097C70D /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 7CB02D812BC5A3DB0097C70D /* FirebaseDatabase */; };
+		7CB02D842BC5A3DB0097C70D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7CB02D832BC5A3DB0097C70D /* FirebaseFirestore */; };
+		7CB02D862BC5A3DB0097C70D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7CB02D852BC5A3DB0097C70D /* FirebaseStorage */; };
+		7CB02D882BC5B7560097C70D /* RegistrationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02D872BC5B7560097C70D /* RegistrationForm.swift */; };
+		7CB02D8A2BC5BA7B0097C70D /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02D892BC5BA7B0097C70D /* Alert.swift */; };
+		7CB02D8C2BC606490097C70D /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02D8B2BC606490097C70D /* PasswordResetViewController.swift */; };
+		7CB02D8E2BC617970097C70D /* SignInVC+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02D8D2BC617970097C70D /* SignInVC+.swift */; };
+		7CB02D9A2BC6D3430097C70D /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CB02D992BC6D3430097C70D /* GoogleService-Info (2).plist */; };
+		7CB02D9D2BC6E4780097C70D /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 7CB02D9C2BC6E4780097C70D /* GoogleSignIn */; };
+		7CB02D9F2BC6E4780097C70D /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7CB02D9E2BC6E4780097C70D /* GoogleSignInSwift */; };
+		7CB02DA32BC6F15B0097C70D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02DA22BC6F15B0097C70D /* ViewModel.swift */; };
+		7CB02DA62BC6F1780097C70D /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02DA52BC6F1780097C70D /* Dynamic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7CB02D592BC571B90097C70D /* SignIn&PhotoEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SignIn&PhotoEdit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB02D5C2BC571B90097C70D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CB02D5E2BC571B90097C70D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7CB02D602BC571B90097C70D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7CB02D632BC571B90097C70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CB02D602BC571B90097C70D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		7CB02D652BC571BA0097C70D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CB02D682BC571BA0097C70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CB02D6A2BC571BA0097C70D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CB02D732BC590D00097C70D /* CustomLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoginView.swift; sourceTree = "<group>"; };
+		7CB02D762BC593370097C70D /* TextField + Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField + Ex.swift"; sourceTree = "<group>"; };
+		7CB02D7A2BC59B800097C70D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7CB02D7C2BC5A06D0097C70D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7CB02D872BC5B7560097C70D /* RegistrationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationForm.swift; sourceTree = "<group>"; };
+		7CB02D892BC5BA7B0097C70D /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		7CB02D8B2BC606490097C70D /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
+		7CB02D8D2BC617970097C70D /* SignInVC+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignInVC+.swift"; sourceTree = "<group>"; };
+		7CB02D992BC6D3430097C70D /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (2).plist"; sourceTree = "<group>"; };
+		7CB02DA22BC6F15B0097C70D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		7CB02DA52BC6F1780097C70D /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CB02D9D2BC6E4780097C70D /* GoogleSignIn in Frameworks */,
+				7CB02D822BC5A3DB0097C70D /* FirebaseDatabase in Frameworks */,
+				7CB02D862BC5A3DB0097C70D /* FirebaseStorage in Frameworks */,
+				7CB02D9F2BC6E4780097C70D /* GoogleSignInSwift in Frameworks */,
+				7CB02D802BC5A3DB0097C70D /* FirebaseAuth in Frameworks */,
+				7CB02D842BC5A3DB0097C70D /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +88,97 @@
 		7CB02D5B2BC571B90097C70D /* SignIn&PhotoEdit */ = {
 			isa = PBXGroup;
 			children = (
+				7CB02D712BC572ED0097C70D /* Sources */,
+				7CB02D722BC572FD0097C70D /* Resources */,
+			);
+			path = "SignIn&PhotoEdit";
+			sourceTree = "<group>";
+		};
+		7CB02D702BC572DC0097C70D /* App */ = {
+			isa = PBXGroup;
+			children = (
 				7CB02D5C2BC571B90097C70D /* AppDelegate.swift */,
 				7CB02D5E2BC571B90097C70D /* SceneDelegate.swift */,
-				7CB02D602BC571B90097C70D /* ViewController.swift */,
-				7CB02D622BC571B90097C70D /* Main.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7CB02D712BC572ED0097C70D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7CB02D752BC593170097C70D /* Extensions */,
+				7CB02D702BC572DC0097C70D /* App */,
+				7CB02D8F2BC618850097C70D /* SignModul */,
+				7CB02D902BC618C40097C70D /* PhotoEditModul */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		7CB02D722BC572FD0097C70D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				7CB02D652BC571BA0097C70D /* Assets.xcassets */,
 				7CB02D672BC571BA0097C70D /* LaunchScreen.storyboard */,
 				7CB02D6A2BC571BA0097C70D /* Info.plist */,
+				7CB02D992BC6D3430097C70D /* GoogleService-Info (2).plist */,
+				7CB02D7C2BC5A06D0097C70D /* GoogleService-Info.plist */,
 			);
-			path = "SignIn&PhotoEdit";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7CB02D752BC593170097C70D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7CB02D762BC593370097C70D /* TextField + Ex.swift */,
+				7CB02D892BC5BA7B0097C70D /* Alert.swift */,
+				7CB02D8D2BC617970097C70D /* SignInVC+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7CB02D8F2BC618850097C70D /* SignModul */ = {
+			isa = PBXGroup;
+			children = (
+				7CB02DA12BC6F1470097C70D /* ViewModels */,
+				7CB02DA02BC6EF220097C70D /* Views */,
+			);
+			path = SignModul;
+			sourceTree = "<group>";
+		};
+		7CB02D902BC618C40097C70D /* PhotoEditModul */ = {
+			isa = PBXGroup;
+			children = (
+				7CB02D7A2BC59B800097C70D /* ProfileViewController.swift */,
+			);
+			path = PhotoEditModul;
+			sourceTree = "<group>";
+		};
+		7CB02DA02BC6EF220097C70D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7CB02D602BC571B90097C70D /* SignInViewController.swift */,
+				7CB02D732BC590D00097C70D /* CustomLoginView.swift */,
+				7CB02D8B2BC606490097C70D /* PasswordResetViewController.swift */,
+				7CB02D872BC5B7560097C70D /* RegistrationForm.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7CB02DA12BC6F1470097C70D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7CB02DA42BC6F16D0097C70D /* Bindings */,
+				7CB02DA22BC6F15B0097C70D /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7CB02DA42BC6F16D0097C70D /* Bindings */ = {
+			isa = PBXGroup;
+			children = (
+				7CB02DA52BC6F1780097C70D /* Dynamic.swift */,
+			);
+			path = Bindings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +197,14 @@
 			dependencies = (
 			);
 			name = "SignIn&PhotoEdit";
+			packageProductDependencies = (
+				7CB02D7F2BC5A3DB0097C70D /* FirebaseAuth */,
+				7CB02D812BC5A3DB0097C70D /* FirebaseDatabase */,
+				7CB02D832BC5A3DB0097C70D /* FirebaseFirestore */,
+				7CB02D852BC5A3DB0097C70D /* FirebaseStorage */,
+				7CB02D9C2BC6E4780097C70D /* GoogleSignIn */,
+				7CB02D9E2BC6E4780097C70D /* GoogleSignInSwift */,
+			);
 			productName = "SignIn&PhotoEdit";
 			productReference = 7CB02D592BC571B90097C70D /* SignIn&PhotoEdit.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +233,10 @@
 				Base,
 			);
 			mainGroup = 7CB02D502BC571B90097C70D;
+			packageReferences = (
+				7CB02D7E2BC5A3DB0097C70D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				7CB02D9B2BC6E4780097C70D /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = 7CB02D5A2BC571B90097C70D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +251,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CB02D9A2BC6D3430097C70D /* GoogleService-Info (2).plist in Resources */,
 				7CB02D692BC571BA0097C70D /* LaunchScreen.storyboard in Resources */,
 				7CB02D662BC571BA0097C70D /* Assets.xcassets in Resources */,
-				7CB02D642BC571B90097C70D /* Main.storyboard in Resources */,
+				7CB02D7D2BC5A06D0097C70D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +265,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CB02D612BC571B90097C70D /* ViewController.swift in Sources */,
+				7CB02D8E2BC617970097C70D /* SignInVC+.swift in Sources */,
+				7CB02D8A2BC5BA7B0097C70D /* Alert.swift in Sources */,
+				7CB02D8C2BC606490097C70D /* PasswordResetViewController.swift in Sources */,
+				7CB02DA32BC6F15B0097C70D /* ViewModel.swift in Sources */,
+				7CB02D882BC5B7560097C70D /* RegistrationForm.swift in Sources */,
+				7CB02D612BC571B90097C70D /* SignInViewController.swift in Sources */,
+				7CB02D742BC590D00097C70D /* CustomLoginView.swift in Sources */,
 				7CB02D5D2BC571B90097C70D /* AppDelegate.swift in Sources */,
+				7CB02D7B2BC59B800097C70D /* ProfileViewController.swift in Sources */,
+				7CB02DA62BC6F1780097C70D /* Dynamic.swift in Sources */,
+				7CB02D772BC593370097C70D /* TextField + Ex.swift in Sources */,
 				7CB02D5F2BC571B90097C70D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +283,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7CB02D622BC571B90097C70D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7CB02D632BC571B90097C70D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7CB02D672BC571BA0097C70D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +417,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HH9D8WXQ67;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SignIn&PhotoEdit/Info.plist";
+				INFOPLIST_FILE = "SignIn&PhotoEdit/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +429,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.sonyigorevna.SignIn-PhotoEdit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +447,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HH9D8WXQ67;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SignIn&PhotoEdit/Info.plist";
+				INFOPLIST_FILE = "SignIn&PhotoEdit/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +459,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.sonyigorevna.SignIn-PhotoEdit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +490,58 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7CB02D7E2BC5A3DB0097C70D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		7CB02D9B2BC6E4780097C70D /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7CB02D7F2BC5A3DB0097C70D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CB02D7E2BC5A3DB0097C70D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7CB02D812BC5A3DB0097C70D /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CB02D7E2BC5A3DB0097C70D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		7CB02D832BC5A3DB0097C70D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CB02D7E2BC5A3DB0097C70D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		7CB02D852BC5A3DB0097C70D /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CB02D7E2BC5A3DB0097C70D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		7CB02D9C2BC6E4780097C70D /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CB02D9B2BC6E4780097C70D /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		7CB02D9E2BC6E4780097C70D /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CB02D9B2BC6E4780097C70D /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7CB02D512BC571B90097C70D /* Project object */;
 }
