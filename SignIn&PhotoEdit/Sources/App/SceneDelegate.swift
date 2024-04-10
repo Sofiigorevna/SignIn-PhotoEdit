@@ -21,7 +21,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: windowScene)
 
         FirebaseApp.configure()
-//        GIDSignIn.sharedInstance.clientID = FirebaseApp().options.clientID
         
         if (Auth.auth().currentUser != nil) {
             let viewController = ProfileViewController()

@@ -8,7 +8,6 @@
 import Foundation
 
 class Dynamic<T> {
-    
     typealias Listener = (T?) -> Void
     
     private var listener: Listener?

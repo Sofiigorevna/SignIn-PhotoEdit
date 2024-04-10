@@ -14,7 +14,7 @@ class SignInViewController: UIViewController {
     
     // MARK: - State
 
-    private var viewModel = ViewModel()
+    var viewModel = ViewModel()
     private var signUp: Bool = true
     
     // MARK: - Outlets
@@ -78,8 +78,7 @@ class SignInViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .black
-        
-     //   bindViewModel()
+        bindViewModel()
         pushProfile()
         setupHierarhy()
         setupLayout()
@@ -137,8 +136,7 @@ class SignInViewController: UIViewController {
         googleSignInButton.isHidden = false
     }
     @objc func googleLogin() {
-//        self.viewModel.signInGoogle()
-        self.signInGoogle()
+        self.viewModel.signInGoogle(vc: self)
     }
     
     @objc func restorePassword() {
@@ -165,11 +163,9 @@ class SignInViewController: UIViewController {
             }
             
             if self.signUp {
-                self.registerUser(email: userEmail, password: password)
-//                self.viewModel.registerUser(email: userEmail, password: password)
+                self.viewModel.registerUser(email: userEmail, password: password, vc: self)
             } else {
-//                self.viewModel.signInUser(email: userEmail, password: password)
-                self.signInUser(email: userEmail, password: password)
+                self.viewModel.signInUser(email: userEmail, password: password, vc: self)
             }
         }
     }

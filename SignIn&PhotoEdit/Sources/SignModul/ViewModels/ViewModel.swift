@@ -9,24 +9,31 @@ import Foundation
 import Firebase
 import GoogleSignIn
 
+protocol ViewModelType {
+    var isLoading: Dynamic<Bool> { get set }
+    func registerUser(email: String, password: String)
+    func signInUser(email: String, password: String)
+    func signInGoogle()
+}
+
 class ViewModel {
-    let SignInVC = SignInViewController()
+   // let signInVC: UIViewController
     var isLoading: Dynamic<Bool> = Dynamic(false)
-    
-    func registerUser(email: String, password: String) {
+   
+    func registerUser(email: String, password: String, vc: UIViewController) {
         isLoading.value = true
 
         // Создаем экземпляр модели данных для формы регистрации
         let registrationForm = RegistrationForm(email: email, password: password)
         
         // Проверяем валидность данных
-        registrationForm.validate(completion: { [weak self] message in
-            guard let message = message, let self = self else {
+        registrationForm.validate(completion: { message in
+            guard let message = message else {
                 return
             }
             
             ShowAlert.shared.alert(
-                view: self.SignInVC,
+                view: vc,
                 title: "Oops!",
                 message: message,
                 completion: nil)
@@ -41,7 +48,7 @@ class ViewModel {
             if let error = error {
                 print("Ошибка при создании пользователя: \(error.localizedDescription)")
                 ShowAlert.shared.alert(
-                    view: self.SignInVC,
+                    view: vc,
                     title: "Error",
                     message: error.localizedDescription,
                     completion: nil)
@@ -58,13 +65,13 @@ class ViewModel {
                             // Ошибка при отправке письма с подтверждением email
                             print("Ошибка при отправке письма с подтверждением email: \(error.localizedDescription)")
                             ShowAlert.shared.alert(
-                                view: self.SignInVC,
+                                view: vc,
                                 title: "Oops!",
                                 message: "Ошибка при отправке письма с подтверждением email",
                                 completion: nil)
                         } else {
                             ShowAlert.shared.alert(
-                                view: self.SignInVC,
+                                view: vc,
                                 title: "",
                                 message: "Письмо с подтверждением email успешно отправлено",
                                 completion: nil)
@@ -76,18 +83,20 @@ class ViewModel {
     }
     
     // метод входа в систему
-    func signInUser(email: String, password: String) {
+    func signInUser(email: String, password: String, vc: UIViewController) {
+        isLoading.value = true
+        
         // Создаем экземпляр модели данных для формы регистрации
         let registrationForm = RegistrationForm(email: email, password: password)
         
         // Проверяем валидность данных
-        registrationForm.validate(completion: { [weak self] message in
-            guard let message = message, let self = self else {
+        registrationForm.validate(completion: {  message in
+            guard let message = message else {
                 return
             }
             
             ShowAlert.shared.alert(
-                view: self.SignInVC,
+                view: vc,
                 title: "Oops!",
                 message: message,
                 completion: nil)
@@ -99,20 +108,23 @@ class ViewModel {
                 return
             }
             
+            self.isLoading.value = false
+
             if let error = error {
                 print("Ошибка при входе в акк: \(error.localizedDescription)")
                 ShowAlert.shared.alert(
-                    view: self.SignInVC,
+                    view: vc,
                     title: "Error",
                     message: "Возможно допущена ошибка в пароле, перепроверьте данные",
                     completion: nil)
             } else {
-                self.SignInVC.dismiss(animated: true)
+                vc.dismiss(animated: true)
             }
         }
     }
     
-    func signInGoogle() {
+    func signInGoogle(vc: UIViewController) {
+        isLoading.value = true
         let clientID = "314380970987-1be5qpjccemlln4n0imcol4jcdmkom9b.apps.googleusercontent.com"
 
         // Create Google Sign In configuration object.
@@ -120,7 +132,7 @@ class ViewModel {
         GIDSignIn.sharedInstance.configuration = config
         
         // Start the sign in flow!
-        GIDSignIn.sharedInstance.signIn(withPresenting: self.SignInVC) { [weak self] result, error in
+        GIDSignIn.sharedInstance.signIn(withPresenting: vc) { [weak self] result, error in
             guard error == nil else {
                 return
             }
@@ -138,18 +150,19 @@ class ViewModel {
                 guard let self = self else {
                     return
                 }
-                
+
                 if let error = error {
                     print("Ошибка при входе в акк: \(error.localizedDescription)")
                     ShowAlert.shared.alert(
-                        view: self.SignInVC,
+                        view: vc,
                         title: "Error",
                         message: "Error",
                         completion: nil)
                 } else {
                     if let result = authResult {
+                        self.isLoading.value = false
                         print(result.user.uid)
-                        self.SignInVC.dismiss(animated: true)
+                        vc.dismiss(animated: true)
                     }
                 }
             }
