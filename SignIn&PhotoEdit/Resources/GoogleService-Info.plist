@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyAvMOqGWF_cyQWAZOyt5j8DbM--VCdBU0E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>314380970987</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ru.sonyigorevna.SignIn-PhotoEdit</string>
+	<key>PROJECT_ID</key>
+	<string>signin-photoedit</string>
+	<key>STORAGE_BUCKET</key>
+	<string>signin-photoedit.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:314380970987:ios:d8a398491e3ee6a1c687ae</string>
+</dict>
+</plist>
