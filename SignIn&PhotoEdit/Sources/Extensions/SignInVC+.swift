@@ -5,9 +5,7 @@
 //  Created by 1234 on 10.04.2024.
 //
 
-import Foundation
-import Firebase
-import GoogleSignIn
+import UIKit
 
 extension SignInViewController {
     func hideKeyboardWhenTappedAround() {

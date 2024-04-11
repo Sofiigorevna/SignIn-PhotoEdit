@@ -6,6 +6,7 @@
 //
 
 import UIKit
+
 class ShowAlert: NSObject {
 static let shared = ShowAlert()
 
