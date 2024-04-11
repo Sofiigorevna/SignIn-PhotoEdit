@@ -31,7 +31,6 @@
 		7C9F38972BC82ABA00293DE2 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F38902BC82ABA00293DE2 /* ImagePicker.swift */; };
 		7C9F389A2BC82AD700293DE2 /* MediaProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F38992BC82AD700293DE2 /* MediaProcessor.swift */; };
 		7C9F389E2BC82B0700293DE2 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F389C2BC82B0700293DE2 /* EditorView.swift */; };
-		7C9F389F2BC82B0700293DE2 /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F389D2BC82B0700293DE2 /* PermissionsView.swift */; };
 		7CB02D5D2BC571B90097C70D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02D5C2BC571B90097C70D /* AppDelegate.swift */; };
 		7CB02D5F2BC571B90097C70D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02D5E2BC571B90097C70D /* SceneDelegate.swift */; };
 		7CB02D612BC571B90097C70D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02D602BC571B90097C70D /* SignInViewController.swift */; };
@@ -84,7 +83,6 @@
 		7C9F38902BC82ABA00293DE2 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		7C9F38992BC82AD700293DE2 /* MediaProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaProcessor.swift; sourceTree = "<group>"; };
 		7C9F389C2BC82B0700293DE2 /* EditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
-		7C9F389D2BC82B0700293DE2 /* PermissionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionsView.swift; sourceTree = "<group>"; };
 		7CB02D592BC571B90097C70D /* SignIn&PhotoEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SignIn&PhotoEdit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB02D5C2BC571B90097C70D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CB02D5E2BC571B90097C70D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -196,7 +194,6 @@
 		7C9F389B2BC82AE300293DE2 /* MainViews */ = {
 			isa = PBXGroup;
 			children = (
-				7C9F389D2BC82B0700293DE2 /* PermissionsView.swift */,
 				7C9F389C2BC82B0700293DE2 /* EditorView.swift */,
 			);
 			path = MainViews;
@@ -464,7 +461,6 @@
 				7C9F38872BC82A9500293DE2 /* CanvasView.swift in Sources */,
 				7C9F38892BC82A9500293DE2 /* CanvasViewController.swift in Sources */,
 				7CB02D8A2BC5BA7B0097C70D /* Alert.swift in Sources */,
-				7C9F389F2BC82B0700293DE2 /* PermissionsView.swift in Sources */,
 				7CB02D8C2BC606490097C70D /* PasswordResetViewController.swift in Sources */,
 				7CB02DA32BC6F15B0097C70D /* ViewModel.swift in Sources */,
 				7C9F387B2BC82A6700293DE2 /* String+Extensions.swift in Sources */,

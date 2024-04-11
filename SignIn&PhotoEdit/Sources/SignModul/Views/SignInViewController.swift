@@ -13,7 +13,7 @@ import GoogleSignIn
 class SignInViewController: UIViewController {
     
     // MARK: - State
-
+    
     var viewModel = ViewModel()
     private var signUp: Bool = true
     

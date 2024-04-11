@@ -7,10 +7,7 @@
 import SwiftUI
 import UIKit
 import Firebase
-import Photos
-import PhotosUI
 import CropViewController
-import PencilKit
 
 class ProfileViewController: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
     

@@ -17,12 +17,11 @@ protocol ViewModelType {
 }
 
 class ViewModel {
-   // let signInVC: UIViewController
     var isLoading: Dynamic<Bool> = Dynamic(false)
-   
+    
     func registerUser(email: String, password: String, vc: UIViewController) {
         isLoading.value = true
-
+        
         // Создаем экземпляр модели данных для формы регистрации
         let registrationForm = RegistrationForm(email: email, password: password)
         
@@ -109,7 +108,7 @@ class ViewModel {
             }
             
             self.isLoading.value = false
-
+            
             if let error = error {
                 print("Ошибка при входе в акк: \(error.localizedDescription)")
                 ShowAlert.shared.alert(
@@ -126,7 +125,7 @@ class ViewModel {
     func signInGoogle(vc: UIViewController) {
         isLoading.value = true
         let clientID = "314380970987-1be5qpjccemlln4n0imcol4jcdmkom9b.apps.googleusercontent.com"
-
+        
         // Create Google Sign In configuration object.
         let config = GIDConfiguration(clientID: clientID)
         GIDSignIn.sharedInstance.configuration = config
@@ -150,7 +149,7 @@ class ViewModel {
                 guard let self = self else {
                     return
                 }
-
+                
                 if let error = error {
                     print("Ошибка при входе в акк: \(error.localizedDescription)")
                     ShowAlert.shared.alert(

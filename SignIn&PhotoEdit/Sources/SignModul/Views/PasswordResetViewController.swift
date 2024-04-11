@@ -47,7 +47,10 @@ class PasswordResetViewController: UIViewController {
         button.layer.shadowColor = UIColor.black.cgColor
         button.layer.shadowOpacity = 0.7
         button.layer.shadowRadius = 4
-        button.addTarget(self, action: #selector(resetPasswordButtonTapped), for: .touchUpInside)
+        button.addTarget(
+            self,
+            action: #selector(resetPasswordButtonTapped),
+            for: .touchUpInside)
         return button
     }()
     
@@ -75,13 +78,11 @@ class PasswordResetViewController: UIViewController {
             emailTextField.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             emailTextField.widthAnchor.constraint(equalToConstant: 270),
             emailTextField.heightAnchor.constraint(equalToConstant: 40),
-
-            
+    
             resetPasswordButton.topAnchor.constraint(equalTo: emailTextField.bottomAnchor, constant: 30),
             resetPasswordButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             resetPasswordButton.widthAnchor.constraint(equalToConstant: 100),
             resetPasswordButton.heightAnchor.constraint(equalToConstant: 40),
-
         ])
     }
     
@@ -101,7 +102,7 @@ class PasswordResetViewController: UIViewController {
                     view: self,
                     title: "Error",
                     message: "Ошибка при отправке инструкций по сбросу пароля. Повторите еще раз.",
-                completion: nil)
+                    completion: nil)
                 
                 print("Ошибка при отправке инструкций по сбросу пароля: \(error.localizedDescription)")
             } else {
