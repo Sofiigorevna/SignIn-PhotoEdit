@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C9F386B2BC8299200293DE2 /* ShapesClassification.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F386A2BC8299200293DE2 /* ShapesClassification.mlpackage */; };
+		7C9F386D2BC82A0400293DE2 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 7C9F386C2BC82A0400293DE2 /* fonts */; };
+		7C9F38702BC82A3900293DE2 /* Image+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F386F2BC82A3900293DE2 /* Image+Extensions.swift */; };
+		7C9F38792BC82A6700293DE2 /* AVAssetTrack+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F38712BC82A6700293DE2 /* AVAssetTrack+Extensions.swift */; };
+		7C9F387A2BC82A6700293DE2 /* PKCanvasView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F38722BC82A6700293DE2 /* PKCanvasView+Extensions.swift */; };
+		7C9F387B2BC82A6700293DE2 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F38732BC82A6700293DE2 /* String+Extensions.swift */; };
+		7C9F387C2BC82A6800293DE2 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F38742BC82A6700293DE2 /* UIImageView+Extensions.swift */; };
+		7C9F387D2BC82A6800293DE2 /* UIResponder+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F38752BC82A6700293DE2 /* UIResponder+Extensions.swift */; };
+		7C9F387E2BC82A6800293DE2 /* Colors+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F38762BC82A6700293DE2 /* Colors+Extensions.swift */; };
+		7C9F387F2BC82A6800293DE2 /* PKDrawing+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F38772BC82A6700293DE2 /* PKDrawing+Extensions.swift */; };
+		7C9F38802BC82A6800293DE2 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F38782BC82A6700293DE2 /* View+Extensions.swift */; };
+		7C9F38862BC82A9500293DE2 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F38822BC82A9500293DE2 /* Canvas.swift */; };
+		7C9F38872BC82A9500293DE2 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F38832BC82A9500293DE2 /* CanvasView.swift */; };
+		7C9F38882BC82A9500293DE2 /* MLCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F38842BC82A9500293DE2 /* MLCanvas.swift */; };
+		7C9F38892BC82A9500293DE2 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F38852BC82A9500293DE2 /* CanvasViewController.swift */; };
+		7C9F38912BC82ABA00293DE2 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F388A2BC82ABA00293DE2 /* ImageView.swift */; };
+		7C9F38922BC82ABA00293DE2 /* FontSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F388B2BC82ABA00293DE2 /* FontSlider.swift */; };
+		7C9F38932BC82ABA00293DE2 /* CircleIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F388C2BC82ABA00293DE2 /* CircleIcon.swift */; };
+		7C9F38942BC82ABA00293DE2 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F388D2BC82ABA00293DE2 /* DropDown.swift */; };
+		7C9F38952BC82ABA00293DE2 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F388E2BC82ABA00293DE2 /* PlayerView.swift */; };
+		7C9F38962BC82ABA00293DE2 /* TextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F388F2BC82ABA00293DE2 /* TextLabel.swift */; };
+		7C9F38972BC82ABA00293DE2 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F38902BC82ABA00293DE2 /* ImagePicker.swift */; };
+		7C9F389A2BC82AD700293DE2 /* MediaProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F38992BC82AD700293DE2 /* MediaProcessor.swift */; };
+		7C9F389E2BC82B0700293DE2 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F389C2BC82B0700293DE2 /* EditorView.swift */; };
 		7CB02D5D2BC571B90097C70D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02D5C2BC571B90097C70D /* AppDelegate.swift */; };
 		7CB02D5F2BC571B90097C70D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02D5E2BC571B90097C70D /* SceneDelegate.swift */; };
 		7CB02D612BC571B90097C70D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02D602BC571B90097C70D /* SignInViewController.swift */; };
@@ -29,9 +53,36 @@
 		7CB02D9F2BC6E4780097C70D /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7CB02D9E2BC6E4780097C70D /* GoogleSignInSwift */; };
 		7CB02DA32BC6F15B0097C70D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02DA22BC6F15B0097C70D /* ViewModel.swift */; };
 		7CB02DA62BC6F1780097C70D /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB02DA52BC6F1780097C70D /* Dynamic.swift */; };
+		9339DEB7AD038D9B29D7EE4D /* Pods_SignIn_PhotoEdit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B99B2211F7A6D301838956D /* Pods_SignIn_PhotoEdit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B99B2211F7A6D301838956D /* Pods_SignIn_PhotoEdit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignIn_PhotoEdit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CE07BF9CD058B37C7F8B7D /* Pods-SignIn&PhotoEdit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignIn&PhotoEdit.release.xcconfig"; path = "Target Support Files/Pods-SignIn&PhotoEdit/Pods-SignIn&PhotoEdit.release.xcconfig"; sourceTree = "<group>"; };
+		7C9F386A2BC8299200293DE2 /* ShapesClassification.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = ShapesClassification.mlpackage; sourceTree = "<group>"; };
+		7C9F386C2BC82A0400293DE2 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		7C9F386F2BC82A3900293DE2 /* Image+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+Extensions.swift"; sourceTree = "<group>"; };
+		7C9F38712BC82A6700293DE2 /* AVAssetTrack+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVAssetTrack+Extensions.swift"; sourceTree = "<group>"; };
+		7C9F38722BC82A6700293DE2 /* PKCanvasView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PKCanvasView+Extensions.swift"; sourceTree = "<group>"; };
+		7C9F38732BC82A6700293DE2 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		7C9F38742BC82A6700293DE2 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		7C9F38752BC82A6700293DE2 /* UIResponder+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extensions.swift"; sourceTree = "<group>"; };
+		7C9F38762BC82A6700293DE2 /* Colors+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Colors+Extensions.swift"; sourceTree = "<group>"; };
+		7C9F38772BC82A6700293DE2 /* PKDrawing+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PKDrawing+Extensions.swift"; sourceTree = "<group>"; };
+		7C9F38782BC82A6700293DE2 /* View+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		7C9F38822BC82A9500293DE2 /* Canvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		7C9F38832BC82A9500293DE2 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		7C9F38842BC82A9500293DE2 /* MLCanvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLCanvas.swift; sourceTree = "<group>"; };
+		7C9F38852BC82A9500293DE2 /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
+		7C9F388A2BC82ABA00293DE2 /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		7C9F388B2BC82ABA00293DE2 /* FontSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontSlider.swift; sourceTree = "<group>"; };
+		7C9F388C2BC82ABA00293DE2 /* CircleIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleIcon.swift; sourceTree = "<group>"; };
+		7C9F388D2BC82ABA00293DE2 /* DropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
+		7C9F388E2BC82ABA00293DE2 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		7C9F388F2BC82ABA00293DE2 /* TextLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextLabel.swift; sourceTree = "<group>"; };
+		7C9F38902BC82ABA00293DE2 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		7C9F38992BC82AD700293DE2 /* MediaProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaProcessor.swift; sourceTree = "<group>"; };
+		7C9F389C2BC82B0700293DE2 /* EditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
 		7CB02D592BC571B90097C70D /* SignIn&PhotoEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SignIn&PhotoEdit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB02D5C2BC571B90097C70D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CB02D5E2BC571B90097C70D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +101,7 @@
 		7CB02D992BC6D3430097C70D /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (2).plist"; sourceTree = "<group>"; };
 		7CB02DA22BC6F15B0097C70D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		7CB02DA52BC6F1780097C70D /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		B6F35062CB6FCB3EDEE564B7 /* Pods-SignIn&PhotoEdit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignIn&PhotoEdit.debug.xcconfig"; path = "Target Support Files/Pods-SignIn&PhotoEdit/Pods-SignIn&PhotoEdit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,17 +115,97 @@
 				7CB02D9F2BC6E4780097C70D /* GoogleSignInSwift in Frameworks */,
 				7CB02D802BC5A3DB0097C70D /* FirebaseAuth in Frameworks */,
 				7CB02D842BC5A3DB0097C70D /* FirebaseFirestore in Frameworks */,
+				9339DEB7AD038D9B29D7EE4D /* Pods_SignIn_PhotoEdit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CEF0158A0D87AB4D54D866C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B99B2211F7A6D301838956D /* Pods_SignIn_PhotoEdit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C9F38642BC8241E00293DE2 /* SUIModul */ = {
+			isa = PBXGroup;
+			children = (
+				7C9F389B2BC82AE300293DE2 /* MainViews */,
+				7C9F38982BC82AC800293DE2 /* Classes */,
+				7C9F38812BC82A8200293DE2 /* Canvas */,
+				7C9F386E2BC82A1600293DE2 /* Extensions */,
+				7C9F38672BC8245100293DE2 /* Views */,
+			);
+			path = SUIModul;
+			sourceTree = "<group>";
+		};
+		7C9F38672BC8245100293DE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7C9F388C2BC82ABA00293DE2 /* CircleIcon.swift */,
+				7C9F388D2BC82ABA00293DE2 /* DropDown.swift */,
+				7C9F388B2BC82ABA00293DE2 /* FontSlider.swift */,
+				7C9F38902BC82ABA00293DE2 /* ImagePicker.swift */,
+				7C9F388A2BC82ABA00293DE2 /* ImageView.swift */,
+				7C9F388E2BC82ABA00293DE2 /* PlayerView.swift */,
+				7C9F388F2BC82ABA00293DE2 /* TextLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7C9F386E2BC82A1600293DE2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7C9F386F2BC82A3900293DE2 /* Image+Extensions.swift */,
+				7C9F38712BC82A6700293DE2 /* AVAssetTrack+Extensions.swift */,
+				7C9F38762BC82A6700293DE2 /* Colors+Extensions.swift */,
+				7C9F38722BC82A6700293DE2 /* PKCanvasView+Extensions.swift */,
+				7C9F38772BC82A6700293DE2 /* PKDrawing+Extensions.swift */,
+				7C9F38732BC82A6700293DE2 /* String+Extensions.swift */,
+				7C9F38742BC82A6700293DE2 /* UIImageView+Extensions.swift */,
+				7C9F38752BC82A6700293DE2 /* UIResponder+Extensions.swift */,
+				7C9F38782BC82A6700293DE2 /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7C9F38812BC82A8200293DE2 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				7C9F38822BC82A9500293DE2 /* Canvas.swift */,
+				7C9F38832BC82A9500293DE2 /* CanvasView.swift */,
+				7C9F38852BC82A9500293DE2 /* CanvasViewController.swift */,
+				7C9F38842BC82A9500293DE2 /* MLCanvas.swift */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		7C9F38982BC82AC800293DE2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7C9F38992BC82AD700293DE2 /* MediaProcessor.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7C9F389B2BC82AE300293DE2 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				7C9F389C2BC82B0700293DE2 /* EditorView.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
 		7CB02D502BC571B90097C70D = {
 			isa = PBXGroup;
 			children = (
 				7CB02D5B2BC571B90097C70D /* SignIn&PhotoEdit */,
 				7CB02D5A2BC571B90097C70D /* Products */,
+				803E27C0977E5D3DFEE80738 /* Pods */,
+				6CEF0158A0D87AB4D54D866C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +249,8 @@
 		7CB02D722BC572FD0097C70D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7C9F386C2BC82A0400293DE2 /* fonts */,
+				7C9F386A2BC8299200293DE2 /* ShapesClassification.mlpackage */,
 				7CB02D652BC571BA0097C70D /* Assets.xcassets */,
 				7CB02D672BC571BA0097C70D /* LaunchScreen.storyboard */,
 				7CB02D6A2BC571BA0097C70D /* Info.plist */,
@@ -149,6 +283,7 @@
 			isa = PBXGroup;
 			children = (
 				7CB02D7A2BC59B800097C70D /* ProfileViewController.swift */,
+				7C9F38642BC8241E00293DE2 /* SUIModul */,
 			);
 			path = PhotoEditModul;
 			sourceTree = "<group>";
@@ -181,6 +316,15 @@
 			path = Bindings;
 			sourceTree = "<group>";
 		};
+		803E27C0977E5D3DFEE80738 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6F35062CB6FCB3EDEE564B7 /* Pods-SignIn&PhotoEdit.debug.xcconfig */,
+				79CE07BF9CD058B37C7F8B7D /* Pods-SignIn&PhotoEdit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,9 +332,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CB02D6D2BC571BA0097C70D /* Build configuration list for PBXNativeTarget "SignIn&PhotoEdit" */;
 			buildPhases = (
+				B4EF6F61598301E855BF9AD6 /* [CP] Check Pods Manifest.lock */,
 				7CB02D552BC571B90097C70D /* Sources */,
 				7CB02D562BC571B90097C70D /* Frameworks */,
 				7CB02D572BC571B90097C70D /* Resources */,
+				8EAEF618BA9662B5A2F8E7C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CB02D9A2BC6D3430097C70D /* GoogleService-Info (2).plist in Resources */,
+				7C9F386D2BC82A0400293DE2 /* fonts in Resources */,
 				7CB02D692BC571BA0097C70D /* LaunchScreen.storyboard in Resources */,
 				7CB02D662BC571BA0097C70D /* Assets.xcassets in Resources */,
 				7CB02D7D2BC5A06D0097C70D /* GoogleService-Info.plist in Resources */,
@@ -260,23 +407,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8EAEF618BA9662B5A2F8E7C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignIn&PhotoEdit/Pods-SignIn&PhotoEdit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignIn&PhotoEdit/Pods-SignIn&PhotoEdit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SignIn&PhotoEdit/Pods-SignIn&PhotoEdit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4EF6F61598301E855BF9AD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignIn&PhotoEdit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7CB02D552BC571B90097C70D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9F38882BC82A9500293DE2 /* MLCanvas.swift in Sources */,
+				7C9F38952BC82ABA00293DE2 /* PlayerView.swift in Sources */,
+				7C9F387E2BC82A6800293DE2 /* Colors+Extensions.swift in Sources */,
 				7CB02D8E2BC617970097C70D /* SignInVC+.swift in Sources */,
+				7C9F38872BC82A9500293DE2 /* CanvasView.swift in Sources */,
+				7C9F38892BC82A9500293DE2 /* CanvasViewController.swift in Sources */,
 				7CB02D8A2BC5BA7B0097C70D /* Alert.swift in Sources */,
 				7CB02D8C2BC606490097C70D /* PasswordResetViewController.swift in Sources */,
 				7CB02DA32BC6F15B0097C70D /* ViewModel.swift in Sources */,
+				7C9F387B2BC82A6700293DE2 /* String+Extensions.swift in Sources */,
+				7C9F387C2BC82A6800293DE2 /* UIImageView+Extensions.swift in Sources */,
+				7C9F387F2BC82A6800293DE2 /* PKDrawing+Extensions.swift in Sources */,
+				7C9F38802BC82A6800293DE2 /* View+Extensions.swift in Sources */,
+				7C9F387D2BC82A6800293DE2 /* UIResponder+Extensions.swift in Sources */,
 				7CB02D882BC5B7560097C70D /* RegistrationForm.swift in Sources */,
+				7C9F389A2BC82AD700293DE2 /* MediaProcessor.swift in Sources */,
+				7C9F38962BC82ABA00293DE2 /* TextLabel.swift in Sources */,
+				7C9F38862BC82A9500293DE2 /* Canvas.swift in Sources */,
 				7CB02D612BC571B90097C70D /* SignInViewController.swift in Sources */,
+				7C9F38972BC82ABA00293DE2 /* ImagePicker.swift in Sources */,
+				7C9F38702BC82A3900293DE2 /* Image+Extensions.swift in Sources */,
+				7C9F386B2BC8299200293DE2 /* ShapesClassification.mlpackage in Sources */,
+				7C9F387A2BC82A6700293DE2 /* PKCanvasView+Extensions.swift in Sources */,
+				7C9F38932BC82ABA00293DE2 /* CircleIcon.swift in Sources */,
+				7C9F389E2BC82B0700293DE2 /* EditorView.swift in Sources */,
+				7C9F38942BC82ABA00293DE2 /* DropDown.swift in Sources */,
 				7CB02D742BC590D00097C70D /* CustomLoginView.swift in Sources */,
 				7CB02D5D2BC571B90097C70D /* AppDelegate.swift in Sources */,
+				7C9F38922BC82ABA00293DE2 /* FontSlider.swift in Sources */,
 				7CB02D7B2BC59B800097C70D /* ProfileViewController.swift in Sources */,
 				7CB02DA62BC6F1780097C70D /* Dynamic.swift in Sources */,
 				7CB02D772BC593370097C70D /* TextField + Ex.swift in Sources */,
+				7C9F38912BC82ABA00293DE2 /* ImageView.swift in Sources */,
 				7CB02D5F2BC571B90097C70D /* SceneDelegate.swift in Sources */,
+				7C9F38792BC82A6700293DE2 /* AVAssetTrack+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +622,7 @@
 		};
 		7CB02D6E2BC571BA0097C70D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F35062CB6FCB3EDEE564B7 /* Pods-SignIn&PhotoEdit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -422,6 +635,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,6 +654,7 @@
 		};
 		7CB02D6F2BC571BA0097C70D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79CE07BF9CD058B37C7F8B7D /* Pods-SignIn&PhotoEdit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +667,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

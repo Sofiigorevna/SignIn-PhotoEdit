@@ -13,7 +13,7 @@ import GoogleSignIn
 class SignInViewController: UIViewController {
     
     // MARK: - State
-
+    
     var viewModel = ViewModel()
     private var signUp: Bool = true
     
@@ -80,7 +80,7 @@ class SignInViewController: UIViewController {
         view.backgroundColor = .black
         bindViewModel()
         pushProfile()
-        setupHierarhy()
+        setupHierarchy()
         setupLayout()
         self.hideKeyboardWhenTappedAround()
     }
@@ -92,7 +92,7 @@ class SignInViewController: UIViewController {
     
     // MARK: - Setup
     
-    private func setupHierarhy() {
+    private func setupHierarchy() {
         view.addSubview(loginView)
         view.addSubview(messageLabel)
         view.addSubview(signInButton)
