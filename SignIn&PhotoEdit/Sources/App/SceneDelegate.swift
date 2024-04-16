@@ -24,7 +24,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             window?.rootViewController = navigationController
             
         } else {
-            let viewController = ProfileViewController()
+            let viewController = SignInViewController()
             self.window?.rootViewController = viewController
         }
         
