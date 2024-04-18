@@ -13,5 +13,6 @@
 
 ## Stack
 Swift, SwiftUI, Firebase/Auth, Google SignIn SDK, MVVM.
+
 ![Fotoram io](https://github.com/Sofiigorevna/SignIn-PhotoEdit/assets/128394362/3cf6987b-ffae-4a42-bc8b-9a335e2d78a6)
 ![Fotoram io — копия](https://github.com/Sofiigorevna/SignIn-PhotoEdit/assets/128394362/1332a16b-1c62-4d88-87d9-b4c9bc891ef2)
